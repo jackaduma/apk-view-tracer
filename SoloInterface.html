@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module SoloInterface</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>SoloInterface</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a></font></td></tr></table>
+    <p><tt>##&nbsp;-*-&nbsp;coding:&nbsp;utf-8&nbsp;-*-</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="SystemComponent.GroupView.html">SystemComponent.GroupView</a><br>
+<a href="Logger.html">Logger</a><br>
+</td><td width="25%" valign=top><a href="SystemComponent.Notification.html">SystemComponent.Notification</a><br>
+<a href="ViewManagement.ParseElement.html">ViewManagement.ParseElement</a><br>
+</td><td width="25%" valign=top><a href="SystemComponent.PopupView.html">SystemComponent.PopupView</a><br>
+<a href="SystemComponent.ProgressBar.html">SystemComponent.ProgressBar</a><br>
+</td><td width="25%" valign=top><a href="logging.html">logging</a><br>
+<a href="time.html">time</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="SoloInterface.html#SoloInterface">SoloInterface</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SoloInterface">class <strong>SoloInterface</strong></a></font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Solo&nbsp;Interface&nbsp;for&nbsp;Automated&nbsp;Testing<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="SoloInterface-__init__"><strong>__init__</strong></a>(self, device_name<font color="#909090">='emulator-5554'</font>, device_port<font color="#909090">=5554</font>, device_address<font color="#909090">='127.0.0.1'</font>)</dt><dd><tt>Constructor</tt></dd></dl>
+
+<dl><dt><a name="SoloInterface-appendEditTextById"><strong>appendEditTextById</strong></a>(self, id, text)</dt></dl>
+
+<dl><dt><a name="SoloInterface-assertCurrentActivity"><strong>assertCurrentActivity</strong></a>(self, expectedClassName)</dt></dl>
+
+<dl><dt><a name="SoloInterface-assertCurrentActivityNewInstance"><strong>assertCurrentActivityNewInstance</strong></a>(self, expectedClassName, oldHashCode)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callDelete"><strong>callDelete</strong></a>(self, reDump<font color="#909090">=False</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callDown"><strong>callDown</strong></a>(self, reDump<font color="#909090">=False</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callLeft"><strong>callLeft</strong></a>(self, reDump<font color="#909090">=False</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callMenu"><strong>callMenu</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callNotification"><strong>callNotification</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callRight"><strong>callRight</strong></a>(self, reDump<font color="#909090">=False</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-callUp"><strong>callUp</strong></a>(self, reDump<font color="#909090">=False</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clearAllNotifications"><strong>clearAllNotifications</strong></a>(self, reDump<font color="#909090">=False</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clearEditTextById"><strong>clearEditTextById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickInPopupById"><strong>clickInPopupById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickInPopupByText"><strong>clickInPopupByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickItemByIndex"><strong>clickItemByIndex</strong></a>(self, groupview_id, index<font color="#909090">=0</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickItemByText"><strong>clickItemByText</strong></a>(self, groupview_id, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickMenuItemById"><strong>clickMenuItemById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickMenuItemByText"><strong>clickMenuItemByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickNotificationItemByText"><strong>clickNotificationItemByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickViewById"><strong>clickViewById</strong></a>(self, id, ReDump<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-clickViewByText"><strong>clickViewByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-close"><strong>close</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-existViewByClassName"><strong>existViewByClassName</strong></a>(self, class_name)</dt></dl>
+
+<dl><dt><a name="SoloInterface-existViewById"><strong>existViewById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-existViewByText"><strong>existViewByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-getCurrentProgress"><strong>getCurrentProgress</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-getCurrentViewClassName"><strong>getCurrentViewClassName</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-getItemsNumber"><strong>getItemsNumber</strong></a>(self, groupview_id, groupview_classname<font color="#909090">=None</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-getProgressById"><strong>getProgressById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-getProgressByText"><strong>getProgressByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-getTextById"><strong>getTextById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-goBack"><strong>goBack</strong></a>(self, ReDump<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-installPackage"><strong>installPackage</strong></a>(self, package_name)</dt></dl>
+
+<dl><dt><a name="SoloInterface-isCheckedById"><strong>isCheckedById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-isCheckedByText"><strong>isCheckedByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-isItemCheckedByIndex"><strong>isItemCheckedByIndex</strong></a>(self, groupview_id, index<font color="#909090">=0</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-isItemCheckedByText"><strong>isItemCheckedByText</strong></a>(self, groupview_id, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-isViewType"><strong>isViewType</strong></a>(self, class_name, view_name_list)</dt></dl>
+
+<dl><dt><a name="SoloInterface-isVisibleById"><strong>isVisibleById</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-longPressByText"><strong>longPressByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-longPressHome"><strong>longPressHome</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-pressHome"><strong>pressHome</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-pullFile"><strong>pullFile</strong></a>(self, device_path, local_path)</dt></dl>
+
+<dl><dt><a name="SoloInterface-pushFile"><strong>pushFile</strong></a>(self, local_path, device_path)</dt></dl>
+
+<dl><dt><a name="SoloInterface-removePackage"><strong>removePackage</strong></a>(self, package_name)</dt></dl>
+
+<dl><dt><a name="SoloInterface-searchForText"><strong>searchForText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-searchForViewClassName"><strong>searchForViewClassName</strong></a>(self, class_name)</dt></dl>
+
+<dl><dt><a name="SoloInterface-searchForViewID"><strong>searchForViewID</strong></a>(self, id)</dt></dl>
+
+<dl><dt><a name="SoloInterface-selectInHorizontalPopupByText"><strong>selectInHorizontalPopupByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-selectInVerticalPopupByText"><strong>selectInVerticalPopupByText</strong></a>(self, text, partial_matching<font color="#909090">=True</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-setEditTextById"><strong>setEditTextById</strong></a>(self, id, text)</dt></dl>
+
+<dl><dt><a name="SoloInterface-setUp"><strong>setUp</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-shell"><strong>shell</strong></a>(self, command)</dt></dl>
+
+<dl><dt><a name="SoloInterface-shellForResult"><strong>shellForResult</strong></a>(self, command)</dt></dl>
+
+<dl><dt><a name="SoloInterface-startActivity"><strong>startActivity</strong></a>(self, uri<font color="#909090">=None</font>, action<font color="#909090">=None</font>, data<font color="#909090">=None</font>, mimetype<font color="#909090">=None</font>, categories_list<font color="#909090">=None</font>, component<font color="#909090">=None</font>, flags_list<font color="#909090">=None</font>, extras_list<font color="#909090">=None</font>)</dt></dl>
+
+<dl><dt><a name="SoloInterface-tearDown"><strong>tearDown</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="SoloInterface-typeInPopupByIndex"><strong>typeInPopupByIndex</strong></a>(self, text, index<font color="#909090">=0</font>)</dt></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Android_Class_Name_Dict</strong> = {'Button': 'android.widget.Button', 'CheckBox': 'android.widget.CheckBox', 'EditText': 'android.widget.EditText', 'ImageButton': 'android.widget.ImageButton', 'ImageVIew': 'android.widget.ImageView', 'ProgressBar': 'android.widget.ProgressBar', 'RadioButton': 'android.widget.RadioButton', 'ScrollView': 'android.widget.ScrollView', 'TextView': 'android.widget.TextView', 'View': 'android.view.View'}</dl>
+
+</td></tr></table></td></tr></table>
+</body></html>
